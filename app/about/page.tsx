@@ -12,13 +12,13 @@ export default function AboutPage() {
     <section className="bg-bg">
       <div className="mx-auto max-w-5xl px-6 py-16 sm:py-24 md:px-10">
         <div className="grid gap-10 md:grid-cols-[minmax(0,320px)_1fr]">
-          <div className="relative aspect-[4/5] w-full max-w-sm overflow-hidden">
+          <div className="relative aspect-[4/5] w-full max-w-sm overflow-hidden bg-bg-alt">
             <Image
-              src="/images/about-portrait.jpg"
-              alt={`${siteConfig.fullName} speaking to Garden Grove residents`}
+              src="/images/hero-portrait.png"
+              alt={siteConfig.fullName}
               fill
               sizes="(max-width: 768px) 90vw, 320px"
-              className="object-cover object-top"
+              className="object-contain object-bottom"
             />
           </div>
           <div>
@@ -73,37 +73,6 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-        </div>
-
-        <div className="mt-14 grid gap-8 sm:grid-cols-2">
-          <figure>
-            <div className="relative aspect-[3/2] w-full overflow-hidden">
-              <Image
-                src="/images/about-photo-1.jpg"
-                alt="Phat Bui at a community health fair"
-                fill
-                sizes="(max-width: 640px) 90vw, 45vw"
-                className="object-cover"
-              />
-            </div>
-            <figcaption className="mt-2 font-body text-xs text-text-muted">
-              Phat at a community health resource fair.
-            </figcaption>
-          </figure>
-          <figure>
-            <div className="relative aspect-[3/2] w-full overflow-hidden">
-              <Image
-                src="/images/about-photo-2.jpg"
-                alt="Phat Bui helping a resident with a housing assistance application"
-                fill
-                sizes="(max-width: 640px) 90vw, 45vw"
-                className="object-cover"
-              />
-            </div>
-            <figcaption className="mt-2 font-body text-xs text-text-muted">
-              Phat helping a resident with housing assistance.
-            </figcaption>
-          </figure>
         </div>
       </div>
     </section>

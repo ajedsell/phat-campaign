@@ -4,7 +4,6 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { siteConfig } from "@/content/site.config";
-import { FacebookIcon, InstagramIcon } from "@/components/icons/SocialIcons";
 
 const links = [
   { href: "/", label: "Home" },
@@ -32,22 +31,6 @@ export function Nav() {
               preload
             />
           </Link>
-          <div className="flex items-center gap-3 text-primary">
-            <a
-              href={siteConfig.social.facebook}
-              aria-label="Facebook"
-              className="opacity-80 transition-opacity hover:opacity-100"
-            >
-              <FacebookIcon className="h-5 w-5" />
-            </a>
-            <a
-              href={siteConfig.social.instagram}
-              aria-label="Instagram"
-              className="opacity-80 transition-opacity hover:opacity-100"
-            >
-              <InstagramIcon className="h-5 w-5" />
-            </a>
-          </div>
         </div>
 
         <div className="hidden items-center gap-6 md:flex">

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/content/site.config";
 import quickFacts from "@/content/quick-facts.json";
@@ -12,16 +11,6 @@ export function MeetSection() {
           <h2 className="font-heading text-3xl text-primary sm:text-4xl">
             Meet {siteConfig.fullName}
           </h2>
-
-          <div className="relative mt-6 aspect-[8/5] w-full max-w-xl overflow-hidden">
-            <Image
-              src="/images/meet-photo.jpg"
-              alt="Phat Bui at a legislative committee hearing with Senator Janet Nguyen"
-              fill
-              sizes="(max-width: 768px) 90vw, 576px"
-              className="object-cover"
-            />
-          </div>
 
           <div className="mt-6 max-w-2xl space-y-4 font-body text-base leading-relaxed text-text-muted">
             <p>

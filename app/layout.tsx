@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lora, Playfair_Display } from "next/font/google";
+import { Archivo } from "next/font/google";
 import Script from "next/script";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Nav } from "@/components/layout/Nav";
@@ -8,15 +8,9 @@ import { DonateButton } from "@/components/layout/DonateButton";
 import { siteConfig } from "@/content/site.config";
 import "./globals.css";
 
-const lora = Lora({
-  variable: "--font-lora",
-  weight: ["400", "500", "600", "700"],
-  subsets: ["latin"],
-});
-
-const playfairDisplay = Playfair_Display({
-  variable: "--font-playfair",
-  weight: ["600", "700", "900"],
+const archivo = Archivo({
+  variable: "--font-archivo",
+  weight: ["400", "600", "700", "800"],
   subsets: ["latin"],
 });
 
@@ -42,7 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${lora.variable} ${playfairDisplay.variable} h-full antialiased`}
+      className={`${archivo.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-bg text-text">
         <Nav />

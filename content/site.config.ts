@@ -9,9 +9,6 @@ export const siteConfig = {
   donateUrl: process.env.NEXT_PUBLIC_DONATE_URL || "#",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://phatbui.com",
   social: {
-    // TODO: replace with real handles once provided
-    facebook: "#",
-    instagram: "#",
     email: "info@phatbui.com",
   },
 };

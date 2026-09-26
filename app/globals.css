@@ -10,19 +10,19 @@
   --color-text: var(--brand-text);
   --color-text-muted: var(--brand-text-muted);
   --color-border: var(--brand-border);
-  --font-heading: var(--font-playfair);
-  --font-body: var(--font-lora);
+  --font-heading: var(--font-archivo);
+  --font-body: var(--font-archivo);
 }
 
 body {
   background: var(--color-bg);
   color: var(--color-text);
-  font-family: var(--font-body), serif;
+  font-family: var(--font-body), sans-serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: var(--font-heading), serif;
-  font-weight: 700;
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 800;
 }
 
 :focus-visible {

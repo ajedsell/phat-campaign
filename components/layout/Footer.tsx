@@ -14,16 +14,10 @@ export function Footer() {
             height={100}
             className="h-12 w-auto self-start"
           />
-          <nav aria-label="Social" className="flex gap-5 font-bold uppercase tracking-wide text-primary">
+          <nav aria-label="Footer" className="flex gap-5 font-bold uppercase tracking-wide text-primary">
             <Link href="/contact" className="hover:text-primary-dark">
               Contact
             </Link>
-            <a href={siteConfig.social.facebook} className="hover:text-primary-dark">
-              Facebook
-            </a>
-            <a href={siteConfig.social.instagram} className="hover:text-primary-dark">
-              Instagram
-            </a>
           </nav>
         </div>
         <p className="mt-6 text-xs text-text-muted">
