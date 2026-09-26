@@ -1,0 +1,26 @@
+{
+  "featured": [
+    {
+      "jurisdiction": "Orange County",
+      "title": "Supervisor",
+      "name": "Janet Nguyen",
+      "photo": "/images/endorsements/janet-nguyen.jpg",
+      "quote": "I've worked with Patrick Phat Bui and have seen his commitment to Garden Grove firsthand. Phat has the experience and determination to keep our neighborhoods safe, support local businesses, and protect taxpayer dollars. I'm proud to support him for City Council."
+    },
+    {
+      "jurisdiction": "Garden Grove",
+      "title": "Mayor",
+      "name": "Stephanie Klopfenstein",
+      "photo": "/images/endorsements/stephanie-klopfenstein.jpg",
+      "quote": "Phat Bui understands our community and has the experience to get things done. I know he will work hard every day to build a stronger and better future for the city we call home."
+    },
+    {
+      "jurisdiction": "Orange County",
+      "title": "Sheriff",
+      "name": "Don Barnes",
+      "photo": "/images/endorsements/don-barnes.jpg",
+      "quote": "Phat Bui has a deep understanding of what it takes to keep Garden Grove safe. He is committed to supporting law enforcement, holding the line on public safety, and ensuring our officers have the resources they need to do their jobs. I am proud to endorse Phat Bui for Garden Grove City Council."
+    }
+  ],
+  "groups": []
+}

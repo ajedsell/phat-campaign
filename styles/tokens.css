@@ -1,0 +1,15 @@
+/*
+ * Brand tokens — the ONLY file that needs to change when brand colors
+ * update. Everything else references these via Tailwind's @theme mapping
+ * in app/globals.css.
+ */
+:root {
+  --brand-primary: #0e1c3a;      /* campaign navy */
+  --brand-primary-dark: #060d1c;
+  --brand-accent: #b72317;       /* campaign red */
+  --brand-bg: #ffffff;
+  --brand-bg-alt: #f2f0ed;       /* warm paper */
+  --brand-text: #0b1220;
+  --brand-text-muted: #3d465c;
+  --brand-border: #d9d5cf;
+}
