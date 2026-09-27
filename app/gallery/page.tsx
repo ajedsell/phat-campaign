@@ -13,9 +13,6 @@ export default function GalleryPage() {
       <section className="border-b-4 border-accent bg-bg-alt">
         <div className="mx-auto max-w-5xl px-6 py-16 sm:py-24 md:px-10">
           <h1 className="font-heading text-4xl text-primary sm:text-5xl">Gallery</h1>
-          <p className="mt-3 max-w-xl font-body text-text-muted">
-            Phat Bui out in the Garden Grove community.
-          </p>
         </div>
       </section>
 

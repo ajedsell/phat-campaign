@@ -8,6 +8,7 @@ import { siteConfig } from "@/content/site.config";
 const links = [
   { href: "/", label: "Home" },
   { href: "/about", label: "Meet Phat" },
+  { href: "/candidate-statement", label: "Statement" },
   { href: "/endorsements", label: "Endorsements" },
   { href: "/district-4", label: "District 4" },
   { href: "/gallery", label: "Gallery" },

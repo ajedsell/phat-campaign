@@ -3,8 +3,16 @@ import { siteConfig } from "@/content/site.config";
 
 export function Hero() {
   return (
-    <section className="bg-bg-alt">
-      <div className="mx-auto grid max-w-5xl md:grid-cols-2">
+    <section className="relative overflow-hidden bg-bg-alt">
+      <Image
+        src="/images/hero-bg.jpg"
+        alt=""
+        aria-hidden="true"
+        fill
+        sizes="100vw"
+        className="object-cover opacity-15"
+      />
+      <div className="relative mx-auto grid max-w-5xl md:grid-cols-2">
         <div className="relative order-1 aspect-[4/5] md:order-2 md:aspect-auto md:min-h-[420px]">
           <Image
             src="/images/hero-portrait-v2.png"
