@@ -25,7 +25,7 @@ export function Hero() {
         </div>
         <div className="order-2 flex flex-col justify-center gap-6 px-6 py-16 sm:py-24 md:order-1 md:px-10">
           <h1 className="font-heading text-3xl leading-tight text-primary sm:text-4xl">
-            Proven Leadership. A <span className="text-accent">Stronger Garden Grove.</span>
+            Proven Leadership. <span className="text-accent">A Stronger Garden Grove.</span>
           </h1>
           <div className="flex flex-wrap gap-4 pt-2">
             <a
