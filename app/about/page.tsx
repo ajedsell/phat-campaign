@@ -14,7 +14,7 @@ export default function AboutPage() {
         <div className="grid gap-10 md:grid-cols-[minmax(0,320px)_1fr]">
           <div className="relative aspect-[4/5] w-full max-w-sm overflow-hidden bg-bg-alt">
             <Image
-              src="/images/hero-portrait.png"
+              src="/images/hero-portrait-v2.png"
               alt={siteConfig.fullName}
               fill
               sizes="(max-width: 768px) 90vw, 320px"

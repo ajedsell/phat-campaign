@@ -7,7 +7,7 @@ export function Hero() {
       <div className="mx-auto grid max-w-5xl md:grid-cols-2">
         <div className="relative order-1 aspect-[4/5] md:order-2 md:aspect-auto md:min-h-[420px]">
           <Image
-            src="/images/hero-portrait.png"
+            src="/images/hero-portrait-v2.png"
             alt={siteConfig.fullName}
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
