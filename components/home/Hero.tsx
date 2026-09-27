@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { siteConfig } from "@/content/site.config";
 
 export function Hero() {
@@ -28,14 +29,12 @@ export function Hero() {
             Proven Leadership. <span className="text-accent">A Stronger Garden Grove.</span>
           </h1>
           <div className="flex flex-wrap gap-4 pt-2">
-            <a
-              href={siteConfig.donateUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/donate"
               className="bg-accent px-6 py-3 font-body font-bold uppercase tracking-wide text-white transition-colors hover:bg-primary"
             >
               Donate
-            </a>
+            </Link>
             <a
               href="#get-involved"
               className="border-2 border-primary px-6 py-3 font-body font-bold uppercase tracking-wide text-primary transition-colors hover:bg-primary hover:text-white"

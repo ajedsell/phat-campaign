@@ -46,15 +46,12 @@ export function Nav() {
               </Link>
             ))}
           </nav>
-          <a
-            href={siteConfig.donateUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`Donate to ${siteConfig.siteName} (opens in new tab)`}
+          <Link
+            href="/donate"
             className="bg-accent px-5 py-2.5 font-body text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-primary"
           >
             Donate
-          </a>
+          </Link>
         </div>
 
         <button
@@ -87,15 +84,13 @@ export function Nav() {
               {link.label}
             </Link>
           ))}
-          <a
-            href={siteConfig.donateUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`Donate to ${siteConfig.siteName} (opens in new tab)`}
+          <Link
+            href="/donate"
+            onClick={() => setOpen(false)}
             className="mt-4 bg-accent px-5 py-3 text-center text-white"
           >
             Donate
-          </a>
+          </Link>
         </nav>
       )}
     </header>
